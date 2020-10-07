@@ -126,7 +126,7 @@ right: 250px;
 transform: translateY(-50%);
 }
 #line1,#line2,#line3{
-   height: 80px;
+   height: 95px;
    width:10px;
    cursor:pointer;
    transform: translateX(-50);
