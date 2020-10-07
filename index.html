@@ -29,8 +29,59 @@
             <img src="../../../Desktop/ikoner/icons8-instagram-96.png">
         </div>
     </div>
+   
+    <div class="msg-container">
+        <div id="slider">
+            <div class="msg-col">
+                <h1>The best jacket, for serious hikers</h1>
+                <p>Rainydays gives you one of the best hiking gear there is.
+                   Combining tech and robust material. Pushing The Comfort Zone.</p>
+                <a href="">Buy Now</a>
+            </div>
+            <div class="msg-col">
+                <h1>Who Are We?</h1>
+                <p>We are a hiking gear entusiast, that belives in raw materials
+                   combined with comfort wil make your hiking easier.</p>
+                <a href="">Buy Now</a>
+            </div>
+            <div class="msg-col">
+                <h1>Our Vision</h1>
+                <p>Our vision at Rainydays is making your adventures filled with pleasure,
+                   comfort and sporty by using our products.</p>
+                <a href="">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="controller">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div id="active"></div>
+    </div>
 
 </div>
+
+<script> var slider = document.getElementById('slider');
+         var active = document.getElementById('active');
+         var line1 = document.getElementById('line1');
+         var line2 = document.getElementById('line2');
+         var line3 = document.getElementById('line3');
+
+         line1.onclick = function(){
+             slider.style.transform = 'translateX(0)';
+             active.style.top = '0px';
+         }
+         line2.onclick = function(){
+             slider.style.transform = 'translateX(-32%)';
+             active.style.top = '80px';
+         }
+         line3.onclick = function(){
+             slider.style.transform = 'translateX(-66%)';
+             active.style.top = '185px';
+         }
+
+    </script>
 
 </body>
 

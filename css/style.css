@@ -74,4 +74,72 @@ nav ul li a:hover{
    height: 50px;
    margin-top: 30px;
 }
+.msg-container{
+   width: 600px;
+   height: 280px;
+   position: absolute;
+   left: 14%;
+   top: 57%;
+   transform: translateY(-50%);
+   overflow: hidden;
+}
 
+#slider{
+   display: inline-flex;
+   transition: 0.5s;
+}
+.msg-col{
+   width: 600px;
+   height:280px;
+}
+.msg-col h1{
+   color:#F3E5C8;
+   font-size: 40px;
+   font-weight: 150px;
+   margin:10px 0;
+}
+.msg-col p{
+   color:#F3E5C8 ;
+   font-size: 15px;
+   line-height: 25px;
+}
+.msg-col a{
+   display: inline-block;
+   text-decoration: none;
+   color:#0A3641;
+   background:#F3E5C8;
+   font-size: 15px;
+   padding: 10px 35px;
+   border-radius: 30px;
+   margin-top: 25px;
+}
+
+.controller
+{
+width: 1px;
+height: 280px;
+display: block;
+background-color:#F3E5C8;
+position: absolute;
+top: 50%;
+right: 250px;
+transform: translateY(-50%);
+}
+#line1,#line2,#line3{
+   height: 80px;
+   width:10px;
+   cursor:pointer;
+   transform: translateX(-50);
+   
+}
+#active
+{
+width: 5px;
+height: 95px;
+border-radius: 10px;
+background:#F3E5C8;
+position: absolute;
+top: 0;
+transform: translateX(-50%);
+transition: 0.5s;
+}
