@@ -113,6 +113,11 @@ nav ul li a:hover{
    border-radius: 30px;
    margin-top: 25px;
 }
+.msg-col a:hover
+{
+background-color:#0A3641;
+color:#F3E5C8;
+}
 
 .controller
 {
