@@ -13,14 +13,7 @@ background-size: cover;
 position: relative;
 
 }
-section .box{
-   position: relative;
-   max-width:600px;
-   padding: 50px;
-   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-   overflow:hidden;
-   color:#000;
-}
+
 .navbar{
    width: 100%;
    height: 120px;
