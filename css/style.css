@@ -11,8 +11,9 @@ background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../
 background-position: center;
 background-size: cover;
 position: relative;
-
 }
+
+
 .container-menpage
 {
    width: 100%;
@@ -21,6 +22,16 @@ position: relative;
    background-position: center;
    background-size: cover;
    position: relative;
+   
+}
+
+section .boxitems
+{
+position: relative;
+max-width: 600px;
+padding: 50px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+color: #000;
 }
 .container-womenpage
 {
@@ -74,6 +85,11 @@ nav ul li a{
 
 }
 nav ul li a:hover{
+   background-color:#F3E5C8;
+   color:#0A3641;
+}
+nav ul li.activesite a
+{
    background-color:#F3E5C8;
    color:#0A3641;
 }
