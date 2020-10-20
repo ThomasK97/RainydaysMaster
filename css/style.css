@@ -13,7 +13,33 @@ background-size: cover;
 position: relative;
 
 }
-
+.container-menpage
+{
+   width: 100%;
+   height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 2.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.container-womenpage
+{
+   width: 100%;
+   height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 3.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.container-aboutpage
+{
+   width: 100%;
+   height: 100vh;
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 4.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
 .navbar{
    width: 100%;
    height: 120px;
