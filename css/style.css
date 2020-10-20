@@ -25,14 +25,6 @@ position: relative;
    
 }
 
-section .boxitems
-{
-position: relative;
-max-width: 600px;
-padding: 50px;
-box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-color: #000;
-}
 .container-womenpage
 {
    width: 100%;

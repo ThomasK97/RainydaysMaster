@@ -31,10 +31,70 @@
         </div>
     </div>
 </div>
-   
-    
+
+<div class="msg-container">
+    <div id="slider">
+        <div class="msg-col">
+            <h1>Who Are We?</h1>
+            <p>We are a hiking gear entusiast who believes in
+               comfort combined with raw materials.</p>
+            
+        </div>
+        <div class="msg-col">
+            <h1>Our vision?</h1>
+            <p>Rainydays vison is combining tech
+               and robust materials. Pushing The Comfort Zone.</p>
+           
+        </div>
+        <div class="msg-col">
+            <h1>Issues with our products?</h1>
+            <p>Please contact us and we will 
+                respond as fast as we can.</p>
+            <a href="">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+<div class="controller">
+    <div id="line1"></div>
+    <div id="line2"></div>
+    <div id="line3"></div>
+    <div id="active"></div>
+</div>
+
+
+
+
+</div>
+
+<script> var slider = document.getElementById('slider');
+var active = document.getElementById('active');
+var line1 = document.getElementById('line1');
+var line2 = document.getElementById('line2');
+var line3 = document.getElementById('line3');
+
+line1.onclick = function(){
+    slider.style.transform = 'translateX(0)';
+    active.style.top = '0px';
+}
+line2.onclick = function(){
+    slider.style.transform = 'translateX(-32%)';
+    active.style.top = '80px';
+}
+line3.onclick = function(){
+    slider.style.transform = 'translateX(-66%)';
+    active.style.top = '185px';
+}
+
+</script>
+
+
 
 </body>
 
 
 </html>
+
+    
+
+
