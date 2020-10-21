@@ -109,13 +109,6 @@ nav ul li.activesite a
    height: 50px;
    margin-top: 40px;
 }
-.burger div{
-   width: 50px;
-   height: 5px;
-   background-color:rgba(226,226,226);
-   margin: 5px;
-   }
-
 .msg-container{
    width: 600px;
    height: 280px;
@@ -190,4 +183,3 @@ top: 0;
 transform: translateX(-50%);
 transition: 0.5s;
 }
-
