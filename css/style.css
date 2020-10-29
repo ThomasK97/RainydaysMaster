@@ -243,3 +243,9 @@ section .box p{
 background-color:#0A3641;
 color:#F3E5C8;
 }
+#Responsive-logo{
+   display: hidden;
+   width: 48px;
+   height: 48px;
+   background-size: 37px;
+}
