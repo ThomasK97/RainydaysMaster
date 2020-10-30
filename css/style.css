@@ -7,7 +7,7 @@
 {
 width: 100%;
 height: 100vh;
-background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 1.jpg);
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../bildernettside/hiker\ 1.jpg);
 background-position: center;
 background-size: cover;
 position: relative;
@@ -18,7 +18,7 @@ position: relative;
 {
    width: 100%;
    height: 100vh;
-   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 2.jpg);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../bildernettside/hiker\ 2.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -29,7 +29,7 @@ position: relative;
 {
    width: 100%;
    height: 100vh;
-   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 3.jpg);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../bildernettside/hiker\ 3.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -38,7 +38,7 @@ position: relative;
 {
    width: 100%;
    height: 100vh;
-   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../../../../Desktop/bildernettside/hiker\ 1.jpg);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../bildernettside/hiker\ 1.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
@@ -242,10 +242,4 @@ section .box p{
 {
 background-color:#0A3641;
 color:#F3E5C8;
-}
-#Responsive-logo{
-   display: hidden;
-   width: 48px;
-   height: 48px;
-   background-size: 37px;
 }
