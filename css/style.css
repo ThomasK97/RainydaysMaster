@@ -13,11 +13,6 @@
    position: relative;
 }
 
-.transparent-hover {
-   background-color: transparent;
-   padding: 0;
-   margin: 0;
-}
 
 .container-menpage {
    width: 100%;
@@ -61,10 +56,6 @@
      flex-direction: column;
    }
  }
- img:hover {
-   border: none !important;
-   display: block;
-}
 .logo {
    width: 155px;
 }
@@ -74,6 +65,12 @@
    position: relative;
    z-index: 10;
    cursor: pointer;
+}
+
+.transparent-hover {
+   background-color: transparent;
+   padding: 0;
+   margin: 0;
 }
 
 /* nav {
@@ -114,6 +111,11 @@ nav ul li a {
 nav ul li a:hover {
    background-color: #F3E5C8;
    color: #0A3641;
+}
+
+img:hover {
+   background-color: transparent;
+   display: block;
 }
 
 nav ul li.activesite a {
