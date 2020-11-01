@@ -268,13 +268,8 @@ section .box p {
 .men-womencontainer {
    display: flex;
    justify-content: center;
-   width: 600px;
-   height: 280px;
-   position: absolute;
-   left: 14%;
-   top: 57%;
-   transform: translateY(-50%);
-   overflow: hidden;
+   padding-top: 200px;
+   overflow: hidden; 
 }
 
 .men-womenbutton a {
